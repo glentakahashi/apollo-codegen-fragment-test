@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "gql": "apollo client:codegen --target typescript --outputFlat graphql.d.ts"
+  },
+  "dependencies": {
+    "apollo": "^2.21.1",
+    "graphql-tag": "^2.10.1",
+    "typescript": "^3.7.3"
+  }
+}
